@@ -2,7 +2,7 @@
 
 ## **Description**
 
-Es un buscador de recomendaciones musicales basado en género, subgénero, año de publicación y país.
+Site for music recommendations, based on filters: gender, sub-gender, release date and country. 
 
 ## **MVP (DOM - CANVAS)**
 The MVP covers the following:
@@ -16,7 +16,8 @@ The MVP covers the following:
 
 ## **Backlog**
 
-Linkear API de Bandcamp para merchansing o Songkick para eventos
+Link Bandcamp API de Bandcamp in order to show merchandising and Songclick API to show events.
+Favorites button, with counter.
 
 
 ## **Data structure**
