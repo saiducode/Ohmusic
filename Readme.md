@@ -6,33 +6,33 @@ Es un buscador de recomendaciones musicales basado en género, subgénero, año 
 
 ## **MVP (DOM - CANVAS)**
 
-MVP definition, deliverables and/or user stories
+- Navbar con botones de Home, App y Join que redirigen a sus respectivas páginas
+- Footer link a FAQ
+- Formulario de búsqueda con 4 filtros y botón de submit, que trae los resultados filtrados de la API
+- Link en los resultados mostrados del filtro que redirige a la página con información del artista
+- Formulario de log-in con campos de user y password, que autentifica para poder ver la página de la app.
+- Formulario de registro con campo de usuario y validación de mail y contraseña
 
 ## **Backlog**
 
 Linkear API de Bandcamp para merchansing o Songkick para eventos
 
-## **Wireframes**
-
-Home
-
-App
-
-FAQ
-
-Artist
-
-Join
-
-Sign up
 
 ## **Data structure**
 
-Classes and methods definition
+- index.html
+- app. html
+- artist.html
+- join.html
+- sign.html
+- faq.html
+- styles.css
+- images
+
 
 ## **APIs**
 
-Last.fm
+Courtesy of Last.fm.
 
 (Bandcamp / Songkick)
 
