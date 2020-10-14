@@ -1,0 +1,39 @@
+
+nav{
+    margin-bottom: 20px;
+    margin-right: 40px;
+    text-align: right;
+    overflow: hidden;
+}
+
+.logo {
+    position: absolute;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    text-align: left;
+    overflow: hidden;
+  }
+
+header{
+    background: url(/Users/saraamantegui/Desktop/ohmusic/Ironhack-Web-App/img/pexels-andrea-piacquadio-3771823.jpg) no-repeat center center /cover;
+    height:100vh;
+    position: relative;
+    font-family: typewriter, Verdana, sans-serif;
+}
+
+header h1{
+    color: #fff;
+    font-size: 25px;
+    position: absolute;
+    left: 15%;
+    top:30%;
+    transform: translate(-10%, -10%);
+
+ 
+
+ .footer-bar {
+      position: absolute;
+      text-align: right;
+      color: white;
+      
+  }
