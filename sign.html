@@ -12,34 +12,35 @@
 <body>
   <div class="logo" <h2> Ohmusic </h2> </div>
   <nav>
+    <div class="logo">
+        <img src="./img/logo.png" alt="logo ohmusic" />
+    </div>
+ 
     <ul class="menu">
-    <li class="logo">
-    <img src="img/logo.png" alt="logo ohmusic" /></a>
+    <li>
+        <a href="./index.html">Home</a>
+    </li>
+    <li>
+        <a href="./discover.html" > Discover</a>
+    </li>
+    <li>
+        <a href="./join.html"> Join </a>
+    </li>  
+    <li>
+        <a href="./sign.html">Sign up</a>
+    </li>
+    <li>
+        <a href="./faq.html">FAQ</a>
+    </li>
 
-    
-        <a href="./index.html">
-          <li class="items">Home</li>
-        </a>
-        <a href="./discover.html">
-          <li class="items">Discover</li>
-        </a>
-        <a href="./join.html">
-            <li class="items">Join</li>
-        </a>
-        <a href="./sign.html">
-          <li class="items">Sign up</li>
-        </a>
-        <a href="./faq.html">
-            <li class="items">FAQ</li>
-          </a>
       </ul>
 </nav>
     
 
-<header>
-
+<header class="header-signup">
+  <h2>Sign up! </h2>
   <section class="signup">
-    <h2>Sign Up</h2>
+    
     <div class="form-wrapper">
       <form class="signup-form" action="">
         <input type="text" id="name" placeholder="User" />
@@ -51,7 +52,6 @@
         <input type="password" id="repeat-password" placeholder="****" />
         <br>
         
-        <!-- El atríbuto `disabled` desactiva el botón. El botón será activado o desactivado por el método `checkButton` en Signup.js -->
         <button type="submit" class="button" id="signup-button" >Sign Up</button>
       </form>
       <div class="message-container">

@@ -2,16 +2,22 @@
 * { 
     box-sizing: border-box; 
     padding: 0; 
-    margin: 0; } 
+    margin: 0; 
+} 
 
 body { 
     
     font-family: sans-serif; } 
 
 nav { 
+    display: flex;
+    font-family: monospace;
     
+    justify-content: space-between;
     background: #222; 
-    padding: 5px 20px; } 
+    padding: 3px 10px; 
+
+} 
     
 ul {
 
@@ -34,6 +40,7 @@ a:hover {
 
 } 
 
+
 .menu li { 
     
     font-size: 16px; 
@@ -47,6 +54,10 @@ a:hover {
     flex: 0;
 
 } 
+
+img{
+    max-width: 100%;
+}
 
 .button.secondary { 
     
@@ -86,8 +97,21 @@ a:hover {
         justify-content: center;
         } 
 .logo { 
-        flex: 1; 
-    } 
+        width: 7%;
+        -webkit-animation: rotation 5s;
+    }
+    
+		
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}   
+    
 .toggle { 
         flex: 1; text-align: right; 
     } 
@@ -145,30 +169,113 @@ a:hover {
 
 .container {
     margin: 1rem;
-    width: 50%;
+    
 }    
 .song-list {
-        display: inline-block ; 
-        width: 50%; 
-        position: absolute;
-    } 
+        display: flex; 
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 0.8rem;
 
+    } 
+.song-list > article {
+    width: 10%;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 2px;
 }
 
 
+}
 
+form{
+	width:300px;
+	padding:16px;
+    border-radius:10px;
+    margin:auto;
+    padding-top: 20%:
+    padding-bottom: 20%;
+	background-color: #3CAEA3;
+}
+
+form input[type="text"],
+form input[type="email"]{
+	
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+}
+form input[type="password"]{
+	width:180px;
+	padding:3px 10px;
+	border:1px solid #f6f6f6;
+	border-radius:3px;
+	background-color:#f6f6f6;
+	margin:8px 0;
+	display:inline-block;
+} 
+
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+
+input {
+    width: 100%;
+}
 
 
 header{
-    background: url(/Users/saraamantegui/Desktop/ohmusic/Ironhack-Web-App/img/pexels-andrea-piacquadio-3771823.jpg) no-repeat center center /cover;
-    height:100vh;
+    background: url(../img/pexels-andrea-piacquadio-3771823.jpg) no-repeat center center fixed;
+    background-size: cover;
+    min-height:100vh;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    padding-right: 50px;
+    padding-left: 50px;
     position: relative;
     font-family: sans-serif;
 }
 
+header h2 , p{
+    font-family: monospace;
+    padding: 5%;
+    margin-bottom: 5px;
+    color: white;
+    text-align: center;
+
+}
+
+
+.header-discover, .header-signup, .header-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    min-height: 100vh;
+
+}
+
+}
+.header-discover {
+    
+    text-align: center;
+}
+
 header h1{
     color: #fff;
-    font-size: 25px;
+    font-size: 30px;
+    font-family: monospace;
     position: absolute;
     left: 15%;
     top:30%;
@@ -176,7 +283,27 @@ header h1{
 
 }
 
- 
+.questions {
+    width:auto;
+	padding:8px 16px;
+	margin-bottom:32px;
+	border:1px solid #000;
+	border-radius:40px;
+	display:inline-block;
+	color:#fff;
+    background-color: rgba(0,0,0,.5);
+   
+}
+
+.questions h2{
+    color: #005959;
+    font-size: 1rem;
+    
+}
+
+.questions p{
+    font-size: 0.8rem;
+}
 
  /*.footer-bar {
       position: absolute;
