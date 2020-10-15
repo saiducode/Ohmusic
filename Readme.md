@@ -2,17 +2,18 @@
 
 ## **Description**
 
-Site for music recommendations, based on filters: gender, sub-gender, release date and country. 
+Site for music recommendations, based on artist and song's name.
+
 
 ## **MVP (DOM - CANVAS)**
 The MVP covers the following:
 
 - Navbar with buttons to their sites.  
 - Footer with link to FAQ
-- Form with 4 filters and submit button, which brings the required info filtered from the API. 
+- Search button, which brings the required info filtered from the API. 
 - Filtered results with link to the site of the artist. 
 - Log-in form with user and password fields, where the user needs to enter in order to see do the research. 
-- Register form with user and passoword Formulario de registro con campo de usuario y validación de mail y contraseña
+- Register form with user and passoword validation.
 
 ## **Backlog**
 
@@ -62,4 +63,4 @@ https://trello.com/b/R3F1XJ0s/ohmusic
 
 ### **Slides**
 
-URls for the project presentation (slides) 
+https://docs.google.com/presentation/d/1XUYWTM3HOnMxGeA5Grje4-ND-HvUpZWBPu01P9HG0-U/edit?usp=sharing
