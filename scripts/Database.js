@@ -5,24 +5,24 @@ class Database {
     getAllUsers () {
         
         const userStr = localStorage.getItem('users');
-        const userArr = JSON.parse(usersStr);
+        const userArr = JSON.parse(userStr);
 
         if(userArr === null) {
             return [];
 
         } else {
-            return usersArr;
+            return userArr;
         }
     }
 
     saveNewUser (newUser) {
-        const usersArr = this.getAllUsers();
-     console.log(usersArr,'usersArr');
-        usersArr.push(newUser);
+        const userArr = this.getAllUsers();
+     console.log(userArr,'userArr');
+        userArr.push(newUser);
 
-        const userStr = JSON.stringify(usersArr);
+        const userStr = JSON.stringify(userArr);
 
-        localStorage.setItem('users', usersStr);
+        localStorage.setItem('users', userStr);
 
     }
 
