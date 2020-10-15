@@ -4,6 +4,7 @@
 
 Site for music recommendations, based on artist and song's name.
 
+
 ## **MVP (DOM - CANVAS)**
 The MVP covers the following:
 
@@ -61,3 +62,5 @@ https://trello.com/b/R3F1XJ0s/ohmusic
 (https://github.com/saidunacode/Ironhack-Web-App)**
 
 ### **Slides**
+
+https://docs.google.com/presentation/d/1XUYWTM3HOnMxGeA5Grje4-ND-HvUpZWBPu01P9HG0-U/edit?usp=sharing
