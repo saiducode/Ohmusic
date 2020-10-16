@@ -29,12 +29,6 @@ a {
     color: white; 
     text-decoration: none; 
 } 
-
-a:hover { 
-    
-    text-back: underline; 
-    /*background-color: #006d6d;*/
-} 
 .logo a:hover { 
     
     text-decoration: none; 
@@ -100,6 +94,7 @@ img{
 .logo { 
         width: 7%;
         -webkit-animation: rotation 5s;
+        animation: rotation 5s;
     }
     
 		
@@ -111,6 +106,15 @@ img{
 		to {
 				-webkit-transform: rotate(359deg);
 		}
+}   
+
+@keyframes rotation {
+    from {
+            -webkit-transform: rotate(0deg);
+    }
+    to {
+            -webkit-transform: rotate(359deg);
+    }
 }   
     
 .toggle { 
@@ -194,7 +198,7 @@ form{
 	padding:16px;
     border-radius:10px;
     margin:auto;
-    padding-top: 20%:
+    padding-top: 20%;
     padding-bottom: 20%;
 	background-color: #3CAEA3;
 }
@@ -267,7 +271,7 @@ header h2 , p{
 
 }
 
-}
+
 .header-discover {
     
     text-align: center;
