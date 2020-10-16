@@ -8,8 +8,6 @@ async function getSimilarSongs(artist, song)  {
 
 for(let i = 0; i<20; i++){
     try {
-        console.log(artist, 'artist')
-        console.log(song, 'song')
       
 
         const article = document.createElement('article');
