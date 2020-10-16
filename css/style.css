@@ -186,8 +186,10 @@ img{
 .song-list > article {
     width: 10%;
     border: 1px solid black;
+    border-radius: 5px;
     padding: 5px;
     margin: 2px;
+
 }
 
 
@@ -198,8 +200,8 @@ form{
 	padding:16px;
     border-radius:10px;
     margin:auto;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 	background-color: #3CAEA3;
 }
 
