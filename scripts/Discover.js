@@ -31,5 +31,7 @@ buttonSubmit.addEventListener("click", function(event){
     event.preventDefault()
     let inputArt = document.querySelector("#artista").value;
     let inputSong = document.querySelector("#songs").value;
+    const section = document.querySelector(".song-list");
+    section.innerHTML = "";
     getSimilarSongs(inputArt,inputSong);
 })
