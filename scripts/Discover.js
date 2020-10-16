@@ -3,7 +3,7 @@ let buttonSubmit = document.querySelector("#buscar");
 async function getSimilarSongs(artist, song)  {
     
     const section = document.querySelector(".song-list");
-    const response = await fetch(`http://ws.audioscrobbler.com/2.0/?method=track.getsimilar&artist=${artist}&track=${song}&api_key=19646f906db9f7ad92e69e1727d6c87e&format=json`);
+    const response = await fetch(`https://ws.audioscrobbler.com/2.0/?method=track.getsimilar&artist=${artist}&track=${song}&api_key=19646f906db9f7ad92e69e1727d6c87e&format=json`);
     const data = await response.json();
 
 for(let i = 0; i<20; i++){

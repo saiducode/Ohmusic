@@ -84,7 +84,7 @@ constructor(){
         if(user) this.redirect();
     }
     redirect = () => {
-        setTimeout (() => location.assign('dashboard.html'), 2000)
+        setTimeout (() => location.assign('../discover.html'), 2000)
     }
 }
 const login = new Login();
