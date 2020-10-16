@@ -7,7 +7,8 @@
 
 body { 
     
-    font-family: sans-serif; } 
+    font-family: monospace; 
+} 
 
 nav { 
     display: flex;
@@ -238,7 +239,7 @@ header{
     background: url(../img/pexels-andrea-piacquadio-3771823.jpg) no-repeat center center fixed;
     background-size: cover;
     min-height:100vh;
-    padding-top: 25px;
+    padding-top: 50px;
     padding-bottom: 5px;
     padding-right: 50px;
     padding-left: 50px;
@@ -284,6 +285,8 @@ header h1{
 }
 
 .questions {
+    font-family: monospace;
+    display: flex;
     width:auto;
 	padding:8px 16px;
 	margin-bottom:32px;
@@ -297,12 +300,16 @@ header h1{
 
 .questions h2{
     color: #005959;
-    font-size: 1rem;
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    text-align: left;
     
 }
 
 .questions p{
-    font-size: 0.8rem;
+    font-size: 0.9rem;
+    padding: 0.5rem;
+    text-align: left;
 }
 
  /*.footer-bar {
